@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "style.css">
+<title>Instalación de Software</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="imagenes/icono.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+  $("#menuofi").click(function(){
+    $("article").hide()
+    $("#ofi").show();
+  });
+  $("#menurec").click(function(){
+    $("article").hide()
+    $("#rec").show();
+  });
+  $("#menuseg").click(function(){
+    $("article").hide()
+    $("#seg").show();
+  });
+  $("#menupor").click(function(){
+    $("article").hide()
+    $("#por").show();
+  });
+});
+</script>
+</head>
+
+<body>
+<header class="header">
+  <div class="container logo-nav-container">
+    <a href="#" class="logo">Instalacion</a> 
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#Indice">Índice</a></li>
+        <li><a href="#Enlaces">Enlaces</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="main-content">
+
+  <div class="container">
+    
+    <h1>Instalacion de software</h1>
+
+    <p>En esta pagina explicaremos la instalacion de distintos tipos de software. Nos centraremos en estos 4 tipos y tomaremos un ejemplo de cada uno en donde explicaremos que son y los pasos para instalarlo en tu ordenador. Estos son los que utilizaremos como ejemplo:</p>
+
+    <div class="intro">
+      
+      <img src="imagenes/libre.png" >
+      
+      <div class="texto">
+      <h2 id="Indice" >Software ofimático</h2>
+      <p>
+      En primer lugar, esta el software ofimatico del cual explicaremos que es, daremos un ejemplo de una aplicación gratuita y explicaremos su instalación, además de hacer una comparativa con otro software ofimático de pago.
+      </p></div>
+      
+    </div>
+
+    <div class="intro">
+
+      <img src="imagenes/hiren.png" >
+
+      <div class="texto">
+      <h2>Software de recuperación</h2>
+      <p>
+      Por otro lado haremos una introducción de que es un software de recuperación y tambien daremos los pasos necesarios para instalar este una aplicación gratuita.
+      </p></div>
+      
+    </div>
+
+    <div class="intro">
+      
+      <img src="imagenes/avast.png" >
+      
+      <div class="texto">
+      <h2>Software de seguridad</h2>
+      <p>
+      Tambien, instalaremos un antivirus el cual lo compararemos con otro de su mismo tipo para valorar si merecera la pena instalarlo o no.
+      </p></div>
+      
+    </div>
+
+    <div class="intro">
+
+      <img src="imagenes/rufus.png" >
+      
+      <div class="texto">
+      <h2>Software portable</h2>
+      <p>
+      Por ultimo, daremos un ejemplo de software portable para poder hacer un pendrive de arranque y diferenciaremos la versión portable y la no portable de esta aplicación.
+      </p></div>
+      
+    </div>
+
+
+    </div>
+  <div align="center">
+  <nav class="nav-pagina">
+    <ul id="Enlaces">
+      <li id="menuofi" style=""><a href="#ofi">Ofimatico</a></li>
+      <li id="menurec"style=""><a href="#rec">Recuperación</a></li>
+      <li id="menuseg"style=""><a href="#seg">Seguridad</a></li>
+      <li id="menupor"style=""><a href="#por">Portable</a></li>
+    </ul>
+  </nav>
+  
+  <div align="center">
+  <article id="ofi">
+    <iframe  style="width:100%; border:none"src="paginas/ofi.html"></iframe>
+  </article>
+
+  <article id="rec">
+    <iframe  style="width:100%; border:none"src="paginas/rec.html"></iframe>
+  </article>
+
+  <article id="seg">
+    <iframe  style="width:100%; border:none"src="paginas/seg.html"></iframe>
+  </article>
+
+  <article id="por">
+    <iframe  style="width:100%; border:none"src="paginas/por.html"></iframe>
+  </article>
+  </div>
+  </div>
+</section>
+
+<footer class="footer">
+  
+  <div class="container">
+    
+    <p>Manuel Luna Madrid</p>
+    
+    <p>RA2. Instalación de software de propósito general</p>
+
+  </div>
+  
+</footer>
+ 
+<script type="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="scripts.js"></script>
+
+</body> 
+
+</html>
